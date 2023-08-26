@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;/* Centraliza horizontalmente os itens dentro do <main>*/
+    align-items: center;
+    height: 100vh;/* Define a altura do <main> como 100% da altura da viewport*/
+}
+
+section {
+    background-color: #ffffff;
+    border-radius: 10px 10px 0 0; /* bordas arredondadas apenas na parte superior */
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);/*Aplica uma sombra de 4px nas direções horizontal e vertical.*/
+    text-align: center;
+    width: 150px; /* Largura dos cards */
+    margin: 0 10px; /* Espaçamento horizontal entre os cards */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassar a borda */
+}
+
+section img {
+    max-width: 100%;
+}
+
+/* Estilização dos textos nos cards */
+p {
+    margin: 5px 0;
+}
+
+small {
+    text-align: center;  
+    color: #e9e7e9;
+}
+
+.bot {
+    color: white;
+    background-color: #158aff;
+    border: 1px solid #158aff;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block; /* Evitar que o botão ocupe a largura total */
+    text-decoration: none; /* Remover sublinhado padrão */
+}

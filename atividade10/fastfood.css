@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900 & família= Roboto:ital,wght@0.100;0.300;0.400;0.500;0.700;0.900;1.100;1.300;1.400;1.500;1.700;1, 900 & display = troca ' );
+
+*{
+    margin: 0;
+    border: 0;
+}
+header{
+    display: flex;
+    border: 2px solid #d4d3d4;
+    justify-content: space-between;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    height: 30px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 40px;
+   
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+  color: #d4d3d4;
+ 
+}
+a{
+    text-decoration: none;
+    color: #8a8b8a;
+    font-family: 'poppins', sans-serif;
+    font-weight: 700;
+    margin-right: 70px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+h1{
+    font-family: 'poppins', sans-serif;
+    font-size: 300%;
+}
+
+.div1, .div2{
+      align-items: center;
+   
+}
+#bot{
+    background-color: #e14822;
+    border: 1px solid #e14822;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 10px;
+}
+span{
+    color:#e14822;
+}
