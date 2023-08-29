@@ -1,5 +1,9 @@
 ## Alinhamento 
 
+ Alinhamento flex
+
+Repositorio criado para treinar o alinahmento flex.
+
 [Index](./atividade10/index.html)
 
 [Css-index](./atividade10/index.css)
