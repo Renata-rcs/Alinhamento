@@ -33,14 +33,14 @@ Neste projeto, explorei o uso do alinhamento flex para criar layouts fluidos e r
   background-color: #f2f2f2;
   text-align: center;
 }
-
+```
+---
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
 
 ---
 
-Feito por [Renata Carvalho](https://github.com/Renata-rcs).
 
 
 [Index](./atividade10/index.html)
@@ -60,5 +60,7 @@ Feito por [Renata Carvalho](https://github.com/Renata-rcs).
 [Fast food-css](./atividade10/fastfood.css)
 
 [Imagens](./imagens/)
+---
 
+Feito por [Renata Carvalho](https://github.com/Renata-rcs).
 
