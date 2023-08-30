@@ -60,6 +60,7 @@ Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](L
 [Fast food-css](./atividade10/fastfood.css)
 
 [Imagens](./imagens/)
+
 ---
 
 Feito por [Renata Carvalho](https://github.com/Renata-rcs).
