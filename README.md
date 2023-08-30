@@ -1,4 +1,4 @@
-# Alinhamento Flex no CSS
+# Alinhamento Flex 
 
 Este é um exemplo de alinhamento flex utilizando o CSS. O alinhamento flex é uma técnica poderosa para criar layouts responsivos e flexíveis em páginas da web.
 
