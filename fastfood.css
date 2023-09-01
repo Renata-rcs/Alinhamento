@@ -6,7 +6,7 @@
 }
 header{
     display: flex;
-    border: 2px solid #d4d3d4;
+    border-bottom: 2px solid #d4d3d4;
     justify-content: space-between;
     font-family: 'poppins', sans-serif;
     font-weight: 700;
@@ -14,7 +14,8 @@ header{
     align-items: center;
     background-color: #ffffff;
     padding: 20px 40px;
-   
+    width: 100%;
+    margin-bottom: 100px; /* Margem na parte inferior */
 
 }
 .material-symbols-outlined {
@@ -56,4 +57,16 @@ h1{
 }
 span{
     color:#e14822;
+}
+@media (max-width: 390px) {
+
+    main{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    .div2{
+        display: none;
+    }
 }

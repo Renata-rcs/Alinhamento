@@ -16,12 +16,13 @@ section {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     background-color: #ffffff;
-    border-radius: 10px 10px 0 0; /* bordas arredondadas apenas na parte superior */
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);/*Aplica uma sombra de 4px nas direções horizontal e vertical.*/
+    border-radius: 10px 10px ;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 150px; /* Largura dos cards */
-    margin: 0 10px; /* Espaçamento horizontal entre os cards */
-    overflow: hidden; /* Esconde o conteúdo que ultrapassar a borda */
+    height: 260px;
+    margin: 0 10px;
+    overflow: hidden;
 }
 
 section img {
@@ -47,4 +48,22 @@ small {
     margin: 10px;
     display: inline-block; /* Evitar que o botão ocupe a largura total */
     text-decoration: none; /* Remover sublinhado padrão */
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+@media (max-width: 390px) {
+
+    main{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500px){
+    img{
+        display: none;
+    }
 }
