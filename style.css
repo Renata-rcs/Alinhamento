@@ -52,3 +52,10 @@ footer {
     background-color: #ffffff;
     padding: 10px 0; /* Ajuste o padding para centralizar o texto */
 }
+@media (max-width: 390px) {
+
+    main{
+        flex-direction: column;
+    }
+}
+
