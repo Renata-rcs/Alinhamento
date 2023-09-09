@@ -35,11 +35,7 @@ Neste projeto, explorei o uso do alinhamento flex para criar layouts fluidos e r
 }
 ```
 ---
-## Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
-
----
 
 
 
